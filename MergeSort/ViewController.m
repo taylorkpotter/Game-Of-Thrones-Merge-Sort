@@ -85,6 +85,8 @@
   
   NSLog(@"Sorted Array: %@", resultArray);
   return resultArray;
+  [self.collectionView reloadData];
+
 }
 
 -(NSArray *)merge:(NSArray *)leftArr andRight:(NSArray *)rightArr
@@ -97,10 +99,12 @@
     if ([[leftArr objectAtIndex:left] heightIndex] < [[rightArr objectAtIndex:right] heightIndex])
     {
       [result addObject:[leftArr objectAtIndex:left++]];
+      [self.collectionView reloadData];
     }
     else
     {
       [result addObject:[rightArr objectAtIndex:right++]];
+      [self.collectionView reloadData];
     }
   }
   NSRange leftRange = NSMakeRange(left, ([leftArr count] - left));
@@ -109,6 +113,8 @@
   NSArray *newLeft = [leftArr subarrayWithRange:leftRange];
   newLeft = [result arrayByAddingObjectsFromArray:newLeft];
   return [newLeft arrayByAddingObjectsFromArray:newRight];
+  [self.collectionView reloadData];
+
 }
 
 
