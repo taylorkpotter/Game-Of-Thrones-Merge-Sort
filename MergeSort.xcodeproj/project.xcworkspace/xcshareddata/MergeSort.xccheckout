@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4C2B815-9C99-4D26-990C-F177262FF04A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MergeSort</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04D5DC6D-B1AD-4C23-A928-25744A024583</key>
+		<string>ssh://github.com/taylorkpotter/Game-Of-Thrones---Merge-Sort.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MergeSort.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04D5DC6D-B1AD-4C23-A928-25744A024583</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/taylorkpotter/Game-Of-Thrones---Merge-Sort.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04D5DC6D-B1AD-4C23-A928-25744A024583</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04D5DC6D-B1AD-4C23-A928-25744A024583</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MergeSort</string>
+		</dict>
+	</array>
+</dict>
+</plist>
