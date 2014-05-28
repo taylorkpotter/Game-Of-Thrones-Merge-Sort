@@ -1,4 +1,6 @@
 ##Merge Of Sorts
+
+![alt tag](MergeSort/GoTSort.png)
 =====
 
 ###Algorithms Can Be Fun

@@ -107,7 +107,6 @@
 		D773D207192DEE070050076D /* 97.png in Resources */ = {isa = PBXBuildFile; fileRef = D773D1A3192DEE070050076D /* 97.png */; };
 		D773D208192DEE070050076D /* 99.png in Resources */ = {isa = PBXBuildFile; fileRef = D773D1A4192DEE070050076D /* 99.png */; };
 		D773D209192DEE070050076D /* 98.png in Resources */ = {isa = PBXBuildFile; fileRef = D773D1A5192DEE070050076D /* 98.png */; };
-		D773D20F192DF1CF0050076D /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D773D20E192DF1CF0050076D /* CustomCell.m */; };
 		D773D212192DF2710050076D /* CellImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D773D211192DF2710050076D /* CellImage.m */; };
 		D773D215192E52F50050076D /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = D773D214192E52F50050076D /* Character.m */; };
 		D791576D192D13D60088DCED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D791576C192D13D60088DCED /* Foundation.framework */; };
@@ -237,8 +236,6 @@
 		D773D1A3192DEE070050076D /* 97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 97.png; sourceTree = "<group>"; };
 		D773D1A4192DEE070050076D /* 99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 99.png; sourceTree = "<group>"; };
 		D773D1A5192DEE070050076D /* 98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 98.png; sourceTree = "<group>"; };
-		D773D20D192DF1CF0050076D /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
-		D773D20E192DF1CF0050076D /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
 		D773D210192DF2710050076D /* CellImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellImage.h; sourceTree = "<group>"; };
 		D773D211192DF2710050076D /* CellImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellImage.m; sourceTree = "<group>"; };
 		D773D213192E52F50050076D /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -428,8 +425,6 @@
 		D7915772192D13D60088DCED /* MergeSort */ = {
 			isa = PBXGroup;
 			children = (
-				D773D20D192DF1CF0050076D /* CustomCell.h */,
-				D773D20E192DF1CF0050076D /* CustomCell.m */,
 				D773D210192DF2710050076D /* CellImage.h */,
 				D773D211192DF2710050076D /* CellImage.m */,
 				D791577B192D13D60088DCED /* AppDelegate.h */,
@@ -674,7 +669,6 @@
 			files = (
 				D7915783192D13D60088DCED /* ViewController.m in Sources */,
 				D791577D192D13D60088DCED /* AppDelegate.m in Sources */,
-				D773D20F192DF1CF0050076D /* CustomCell.m in Sources */,
 				D773D212192DF2710050076D /* CellImage.m in Sources */,
 				D7915779192D13D60088DCED /* main.m in Sources */,
 				D773D215192E52F50050076D /* Character.m in Sources */,
